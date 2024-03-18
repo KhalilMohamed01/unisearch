@@ -98,6 +98,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "uni-search:build:production",
+              "serveTarget": "uni-search:serve:production"
+            },
+            "development": {
+              "buildTarget": "uni-search:build:development",
+              "serveTarget": "uni-search:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

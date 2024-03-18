@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "unisearch-39224": {
+      "hosting": {
+        "uni-search": [
+          "unisearch-39224"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "unisearch-39224"
+  }
+}
